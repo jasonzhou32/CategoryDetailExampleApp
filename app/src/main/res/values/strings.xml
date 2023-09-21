@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MAD Cafe app</string>
+    <string-array name="options">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
 </resources>
