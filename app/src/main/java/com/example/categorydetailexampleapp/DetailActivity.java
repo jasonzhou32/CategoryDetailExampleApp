@@ -29,9 +29,9 @@ public class DetailActivity extends AppCompatActivity {
             ImageView image = findViewById(R.id.imageView);
             // set values on the screen based on the object that was passed to this Detail activity
             nameTV.setText(myFood.getName());
-            priceTV.setText(String.valueOf(myFood.getPrice()));
+            priceTV.setText("$" + myFood.getPrice());
             descTV.setText(myFood.getDesc());
-            image.setImageResource(myFood.getImageResourceID());
+
 
             if (myFood.getImageResourceID() == 0) {
                 // set a default pic or decide what to do in this case.

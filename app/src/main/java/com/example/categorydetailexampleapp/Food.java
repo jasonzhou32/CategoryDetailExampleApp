@@ -21,7 +21,7 @@ public class Food implements Parcelable {
     public static final Food[] myBreakfast = {
             new Food("Toast", 7.50, "2 Pieces, Golden Brown, Honey-Coated", R.drawable.toast),
             new Food("Bagel", 4.50, "1 Bagel, Cream Cheese", R.drawable.bagel),
-            new Food("Pie", 5.50, "1 Slice, Apple Filling", R.drawable.bagel)
+            new Food("Pie", 5.50, "1 Slice, Apple Filling", R.drawable.pie)
 
     };
 

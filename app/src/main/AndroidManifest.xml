@@ -16,7 +16,7 @@
             android:name=".DetailActivity"
             android:exported="false"
             android:label="Choose an item"
-            android:parentActivityName=".CategoryActivity"
+            android:parentActivityName=".MainActivity"
             />
 
         <activity
