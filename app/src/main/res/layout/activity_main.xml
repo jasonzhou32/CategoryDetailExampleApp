@@ -11,8 +11,14 @@
     <ListView
         android:id="@+id/list_options"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         android:entries="@array/options"
         android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bestcafe" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
